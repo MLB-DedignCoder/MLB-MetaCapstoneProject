@@ -1,12 +1,14 @@
 import './App.css';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import HighlightSection from './components/HighlightSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-      <header>
-        <nav />
-      </header>
       <main>
+        <Header />
         <HeroSection />
         <HighlightSection />
         <Footer />

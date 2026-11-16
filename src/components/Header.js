@@ -1,6 +1,6 @@
 import Logo from 'src/Images/Logo.png';
 
-const nav = () => {
+const Header = () => {
     return (
         <nav>
             <Hstack gap={2} className="align-items-center">
@@ -18,4 +18,4 @@ const nav = () => {
     );
 };
 
-export default nav;
+export default Header;
