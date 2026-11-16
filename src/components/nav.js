@@ -1,14 +1,19 @@
+import Logo from 'src/Images/Logo.png';
+
 const nav = () => {
     return (
         <nav>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Reservations">Reservations</a></li>
-                <li><a href="#OrderOnline">Order Online</a></li>
-                <li><a href="#Login">Login</a></li>
-            </ul>
+            <Hstack gap={2} className="align-items-center">
+                <a href="/">
+                    <img src={Logo} alt="Little Lemon Logo" />
+                </a>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="#Reservations">Reservations</a>
+                <a href="#OrderOnline">Order Online</a>
+                <a href="#Login">Login</a>
+            </Hstack>
         </nav>
     );
 };

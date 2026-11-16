@@ -7,10 +7,8 @@ function App() {
         <nav />
       </header>
       <main>
-        <IntroSection />
-        <SpecialSection />
-        <TestimonialsSection />
-        <AboutSection />
+        <HeroSection />
+        <HighlightSection />
         <Footer />
       </main>
     </>
