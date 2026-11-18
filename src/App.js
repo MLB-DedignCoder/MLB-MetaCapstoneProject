@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import HighlightSection from './components/HighlightSection';
-import Footer from './components/Footer';
+import Header from './components/Header.js';
+import HeroSection from './components/HeroSection.js';
+import HighlightSection from './components/HighlightSection.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (

@@ -1,11 +1,12 @@
-import Image from 'src/Images/Asset 20@4x.png';
+import { HStack } from '@chakra-ui/react';
+import Image from 'src/Asset 20@4x.png';
 
 const Footer = () => {
     return (
         <footer>
-            <Hstack gap={4} className="align-items-center">
+            <HStack spacing="4" alignItems="center">
                 <a href="/">
-                    <img src={Logo} alt="© 2024 Little Lemon. All rights reserved." />
+                    <img src={Image} alt="© 2024 Little Lemon. All rights reserved." />
                 </a>
                 <section>
                     <p>Doormat Navigation</p>
@@ -34,7 +35,7 @@ const Footer = () => {
                         <li><a href="https://www.x.com/littlelemon">X</a></li>
                     </ul>
                 </section>
-            </Hstack>
+            </HStack>
          </footer>
     );
 };

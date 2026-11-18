@@ -1,9 +1,10 @@
-import Logo from 'src/Images/Logo.png';
+import { HStack } from '@chakra-ui/react';
+import Logo from 'src/Logo.svg';
 
 const Header = () => {
     return (
         <nav>
-            <Hstack gap={2} className="align-items-center">
+            <HStack spacing="2" alignItems="center">
                 <a href="/">
                     <img src={Logo} alt="Little Lemon Logo" />
                 </a>
@@ -13,7 +14,7 @@ const Header = () => {
                 <a href="#Reservations">Reservations</a>
                 <a href="#OrderOnline">Order Online</a>
                 <a href="#Login">Login</a>
-            </Hstack>
+            </HStack>
         </nav>
     );
 };
