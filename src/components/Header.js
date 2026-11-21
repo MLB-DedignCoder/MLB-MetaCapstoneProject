@@ -1,13 +1,9 @@
-import { HStack } from '@chakra-ui/react';
-import Logo from 'src/Logo.svg';
+import { Box, HStack } from '@chakra-ui/react';
 
 const Header = () => {
     return (
-        <nav>
-            <HStack spacing="2" alignItems="center">
-                <a href="/">
-                    <img src={Logo} alt="Little Lemon Logo" />
-                </a>
+        <Box as="nav" bg="gray.100" p="4">
+            <HStack spacing="4" alignItems="center">
                 <a href="#Home">Home</a>
                 <a href="#About">About</a>
                 <a href="#Menu">Menu</a>
@@ -15,7 +11,7 @@ const Header = () => {
                 <a href="#OrderOnline">Order Online</a>
                 <a href="#Login">Login</a>
             </HStack>
-        </nav>
+        </Box>
     );
 };
 

@@ -1,6 +1,8 @@
+import { Box, HStack } from '@chakra-ui/react';
 const HeroSection = () => {
     return (
-        <footer>
+        <Box>
+            <HStack spacing="2" alignItems="center">
                <section>
                     <p>Introduction</p>
                 </section>
@@ -9,7 +11,8 @@ const HeroSection = () => {
                         <p>Hero Image</p>
                     </article>
                 </section>
-         </footer>
+            </HStack>
+         </Box>
     );
 };
 
